@@ -1,0 +1,22 @@
+#+TITLE: Learn emacs
+#+AUTHOR: thwzjx
+#+LATEX_COMPILER: xelatex
+#+LATEX_HEADER: \usepackage{xeCJK}
+* emacs
+你好
+#+begin_src emacs-lisp
+  (+ 1 1)
+  (global-set-key (kbd "C-x"))
+#+end_src
+#+begin_quote
+hello world 
+#+end_quote
+#+begin_src c
+  #include<stdio.h>
+  int main()
+  {
+    int a;
+    a = 10;
+    printf("%d",a);
+    return 0;}
+#+end_src
